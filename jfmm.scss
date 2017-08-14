@@ -1,0 +1,57 @@
+.jfmm {
+  box-sizing: border-box;
+  background-clip: border-box;
+  padding: 1rem;
+  overflow: hidden;
+  background-color: #f0f0f0;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.jfmm-title {
+  display: block;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  color: #333;
+
+  * {
+    line-height: 1.5rem;
+  }
+}
+
+.jfmm-desc {
+  font-size: 0.9rem;
+  color: #888;
+
+  a {
+    color: #888;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.jfmm-content {
+  display: block;
+  clear: both;
+  font-size: 1rem;
+  line-height: 2;
+
+  ul {
+    margin: 0;
+    padding-left: 1em;
+  }
+}
+
+.jfmm-btn {
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #444;
+  padding: 0 1rem;
+  margin: 5px 0;
+}
